@@ -35,7 +35,7 @@ export default function RootLayout({
             </Link>
             <Link
               href={"/create"}
-              className="rounded-full bg-slate-100 grid place-items-center py-2 px-4 font-bold shadow-md"
+              className="rounded-full bg-slate-100 grid place-items-center py-2 px-4 font-bold shadow-md hover:bg-slate-200 transition-all ease-in-out duration-300"
             >
               Add New
             </Link>
