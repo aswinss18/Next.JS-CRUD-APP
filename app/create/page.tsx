@@ -40,7 +40,7 @@ export default function Page() {
           },
         }
       );
-      console.log(response);
+      console.log(response?.data);
       setSuccessMessage("Player added successfully!");
       console.log(response.data); // Optional: log the response from the server
     } catch (err) {
